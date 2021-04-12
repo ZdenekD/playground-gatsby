@@ -1,4 +1,16 @@
 {
+  "printWidth": 160,
+  "tabWidth": 4,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": false,
   "arrowParens": "avoid",
-  "semi": false
+  "overrides": [
+    {
+      "files": ["*.json", "*.yml", "*.*rc"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
 }
