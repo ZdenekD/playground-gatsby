@@ -166,9 +166,6 @@
     ],
     // Forbid certain propTypes
     "react/forbid-prop-types": [0],
-    // React scope is not necessary for React v17+
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off",
     // Enforce JSX indentation
     "react/jsx-indent": ["error", 4],
     // Validate props indentation in JSX
